@@ -6,7 +6,7 @@ from datetime import date
 from datetime import datetime
 
 app = Dash(__name__)
-
+server = app.server
 # -- Import and clean data (importing csv into pandas)
 
 # Reading vaccine data and covid cases data and strong them in vaccine_data and df resprectively
